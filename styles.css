@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f7;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 450px;
+  background: #fff;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.feld {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input[type="number"] {
+  padding: 8px;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  background: #4a78f0;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #355fd1;
+}
+
+.ausgabe {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+#passwort {
+  flex: 1;
+  padding: 8px;
+}
+
+#info {
+  margin-top: 10px;
+  color: green;
+  font-size: 14px;
+}
